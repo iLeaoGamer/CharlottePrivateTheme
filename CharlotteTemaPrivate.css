@@ -1,0 +1,50 @@
+//META{"name":"Charlotte Theme/Privado ZIILEAOGGG","description":"Tema feito por mim e privado!"
+/* "Charlotte Theme Privado" by @ZIILEAOGGG */
+/* Edited by ZIILEAOGGG - Replaced the Background with Vegetto Blie */
+/* Based on "VegettoShadow" by ZIILEAOGGG *//* IMPORT CSS FROM GITHUB */
+@import url(https://gitcdn.xyz/repo/Zerthox/ClearVision/master/css/ClearVision_v5.min.css);
+/*
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+IMPORTANT: CHANGE BETWEEN DARK AND LIGHT VERSION IN APPEARANCE SETTINGS!
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+================ IMPORTANT LINKS =================
+Github: https://git.io/v6BHO
+Discord: https://git.io/vMnlu
+Wiki: https://git.io/vXTqM
+Latest version: https://git.io/v6Muk
+Changelog: https://git.io/v6r5N
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+============== CUSTOMIZABLE COLORS ===============
+*/
+:root {
+	--main-color: #ff0000;
+	--hover-color: #b32d00;
+    --background-blur: 0px;
+    --background-brightness: 100%;
+}
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+========= CUSTOMIZABLE BACKGROUND IMAGE ==========
+*/
+body::after,
+.callout-backdrop,
+.user-popout::before,
+#user-profile-modal .header::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+.radio-theme.dark label{
+    background-image: url(https://images7.alphacoders.com/647/647507.png) !important; /* IMPORTANT: Link must be HTTPS! */
+}
